@@ -8,33 +8,33 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Calculator
 build_property.RootNamespace = Calculator
-build_property.ProjectDir = E:\My_Projects\Programming\C#\Web\Calculator\Calculator\
+build_property.ProjectDir = E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\src\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\My_Projects\Programming\C#\Web\Calculator\Calculator
+build_property.MSBuildProjectDirectory = E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\src
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/My_Projects/Programming/C\#/Web/Calculator/Calculator/Views/Calc/Calc.cshtml]
+[E:/My_Projects/Programming/C\#/Web/Calculator/MVC-Calc/src/Views/Calc/Calc.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY1xDYWxjLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/My_Projects/Programming/C\#/Web/Calculator/Calculator/Views/Shared/Error.cshtml]
+[E:/My_Projects/Programming/C\#/Web/Calculator/MVC-Calc/src/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/My_Projects/Programming/C\#/Web/Calculator/Calculator/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/My_Projects/Programming/C\#/Web/Calculator/MVC-Calc/src/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/My_Projects/Programming/C\#/Web/Calculator/Calculator/Views/_ViewImports.cshtml]
+[E:/My_Projects/Programming/C\#/Web/Calculator/MVC-Calc/src/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/My_Projects/Programming/C\#/Web/Calculator/Calculator/Views/_ViewStart.cshtml]
+[E:/My_Projects/Programming/C\#/Web/Calculator/MVC-Calc/src/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/My_Projects/Programming/C\#/Web/Calculator/Calculator/Views/Shared/_Layout.cshtml]
+[E:/My_Projects/Programming/C\#/Web/Calculator/MVC-Calc/src/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-i5kysbodk9

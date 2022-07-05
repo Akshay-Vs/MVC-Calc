@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\Calculator\\Calculator.csproj",
+      "projectUniqueName": "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\MVC-Calc\\src\\Calculator.csproj",
       "projectName": "Calculator",
-      "projectPath": "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\Calculator\\Calculator.csproj",
+      "projectPath": "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\MVC-Calc\\src\\Calculator.csproj",
       "packagesPath": "C:\\Users\\aksha\\.nuget\\packages\\",
-      "outputPath": "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\Calculator\\obj\\",
+      "outputPath": "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\MVC-Calc\\src\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NiJ4zleE32zDX5vETA78EGtcVGgv5ZbM8s/8ueujKMHLeEUM2RPjcbMjd3z0rBZ2ezIub0rflKKsaK55aVR+PQ==",
+  "dgSpecHash": "ZpiDsciRLoyzlk4kjoteHEJvSl2RqxaBxUMXCz2NGbYNIvctRh1B4e9qzTp5C6zre7eVl47xpA6cRfYTram3lA==",
   "success": true,
-  "projectFilePath": "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\Calculator\\Calculator.csproj",
+  "projectFilePath": "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\MVC-Calc\\src\\Calculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
