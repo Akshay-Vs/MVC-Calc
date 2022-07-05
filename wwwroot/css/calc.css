@@ -1,0 +1,370 @@
+﻿html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    position: relative;
+    background-image: url('https://images.pexels.com/photos/3637943/pexels-photo-3637943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+    color: white;
+    backdrop-filter: blur(30px);
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.iphonex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: center;
+    width: 340px;
+    height: 649.6px;
+    margin: auto;
+    margin-top: 30px;
+    background: #F7F8FB;
+    border-radius: 40pt;
+    backdrop-filter: blur(102px);
+    box-shadow: -2px -1px 20px 10px rgba(0,0,0,0.05);
+    border: 8px solid #000000;
+}
+
+.notch {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 4px;
+    position: absolute;
+    width: 104pt;
+    height: 20pt;
+    top: 0px;
+    background-color: black;
+    transform: translate(0, -1px);
+    border-radius: 0pt 0pt 14pt 14pt;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+    grid-template-rows: 70px 70px 70px 70px;
+    margin: 20px;
+    justify-items: center;
+    transform: translate(0, 50px);
+}
+
+.calc-screen-primary {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    padding: 6px 4px;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    border: none;
+    margin: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 72px;
+    color: #424242;
+    transform: translate(0px, 20px);
+    margin: 15px;
+}
+
+.calc-screen-secondary {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    padding: 6px 4px;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    border: none;
+    transform: translate(0px, 60px);
+    margin: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 72px;
+    color: #424242;
+}
+
+.calc-button {
+    display: grid;
+    color: black;
+    height: 62px;
+    width: 62px;
+    margin: 30px;
+    box-shadow: -2px -1px 20px 10px rgba(0,0,0,0.05);
+    border: none;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    font-size: 15px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+}
+
+.special-button {
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 62px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    box-shadow: -2px -1px 20px 10px rgba(0,0,0,0.05);
+    margin: 48px;
+    color: #7CC9FF;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-style: oblique;
+    font-weight: 500;
+}
+
+.op-button {
+    display: grid;
+    color: black;
+    height: 62px;
+    width: 62px;
+    margin: 30px;
+    box-shadow: -2px -1px 8px 4px #deeaff;
+    border: none;
+    color: #109DFF;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    font-size: 15px;
+    box-sizing: border-box;
+    background-color: #ADE2FF;
+    border: 1px solid #ADE2FF;
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+}
+
+.num-button {
+    display: grid;
+    color: black;
+    height: 62px;
+    width: 62px;
+    margin: 30px;
+    box-shadow: -2px -1px 20px 10px rgba(0,0,0,0.05);
+    border: none;
+    color: #38B9FF;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    font-size: 15px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+}
+
+.dot-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 4px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    width: 62px;
+    height: 62px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    box-shadow: -2px -1px 20px 10px rgba(0,0,0,0.05);
+    margin: 48px;
+    color: #7CC9FF;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-style: oblique;
+    font-weight: 500;
+    transform: translate(35px, 263px);
+}
+
+.coma-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 4px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    width: 62px;
+    height: 62px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    box-shadow: -2px -1px 20px 10px rgba(0,0,0,0.05);
+    margin: 48px;
+    color: #7CC9FF;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-style: oblique;
+    font-weight: 500;
+    transform: translate(-105px, 263px);
+}
+
+.eq-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 4px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    width: 62px;
+    height: 138px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+    backdrop-filter: blur(12px);
+    box-shadow: -2px -1px 10px 3px rgba(25, 172, 255, 0.5);
+    margin: 48px;
+    color: #7CC9FF;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-style: oblique;
+    font-weight: 500;
+    transform: translate(105px, 228px);
+    background: #19ACFF;
+}
+
+.zero-button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 4px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    width: 62px;
+    height: 62px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    box-shadow: -2px -1px 20px 10px rgba(0,0,0,0.05);
+    margin: 48px;
+    color: #7CC9FF;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-style: oblique;
+    font-weight: 500;
+    transform: translate(-35px, 263px);
+}
+
+@media(max-width:800px) {
+    .iphonex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: center;
+        width: 340px;
+        height: 649.6px;
+        margin: 2px;
+        background: #F7F8FB;
+        border-radius: 40pt;
+        backdrop-filter: blur(102px);
+        box-shadow: -2px -1px 20px 10px rgba(0,0,0,0.05);
+        border: 8px solid #000000;
+    }
+
+    body {
+        position: page;
+        background-image: url('https://images.pexels.com/photos/3637943/pexels-photo-3637943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: -10px 20px;
+        color: white;
+        backdrop-filter: blur(30px);
+    }
+}
+
+
+/*-----About Dev------*/
+
+.bar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: right;
+    left: auto;
+    right: 0%;
+    margin-top: 50px;
+    align-items: center;
+    padding: 6px 4px;
+    position: absolute;
+    width: 50pt;
+    height: 300pt;
+    top: 50px;
+    background-color: rgba(225,225,225,0.3);
+    backdrop-filter: blur(30px);
+    border-radius: 14pt 0pt 0pt 14pt;
+    box-shadow: -2px -3px 20px 10px rgba(0,0,0,0.2);
+}
+
+.bar-img img{
+    height: 35px;
+    width: 35px;
+    background-size: cover;
+    background-position: center;
+    margin:15px;
+    transition:0.5s;
+}
+
+.bar-img:hover img {
+    transform:rotate(10deg);
+}
