@@ -39,6 +39,7 @@ body {
     backdrop-filter: blur(102px);
     box-shadow: -2px -1px 20px 10px rgba(0,0,0,0.05);
     border: 8px solid #000000;
+    cursor: pointer;
 }
 
 .notch {
@@ -66,6 +67,18 @@ body {
     transform: translate(0, 50px);
 }
 
+    .grid-container :hover {
+        box-shadow: 0px 0px 7px 1px rgba(141, 207, 252, 0.3);
+    }
+
+    .grid-container :active {
+        border: none;
+        box-shadow: 0px 0px 7px 1px #8dcffc;
+        color: #8dcffc;
+        font-size: 13px;
+    }
+
+
 .calc-screen-primary {
     box-sizing: border-box;
     display: flex;
@@ -89,7 +102,7 @@ body {
 }
 
 .calc-screen-secondary {
-    width:auto;
+    width: auto;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -222,6 +235,16 @@ body {
     transform: translate(35px, 263px);
 }
 
+    .dot-button :active {
+        border: none;
+        box-shadow: 0px 0px 7px 1px #8dcffc;
+        color: #8dcffc;
+        font-size: 13px;
+    }
+
+
+
+
 .coma-button {
     box-sizing: border-box;
     display: flex;
@@ -248,6 +271,13 @@ body {
     transform: translate(-105px, 263px);
 }
 
+    .coma-button :active {
+        border: none;
+        box-shadow: 0px 0px 7px 1px #8dcffc;
+        color: #8dcffc;
+        font-size: 13px;
+    }
+
 .eq-button {
     box-sizing: border-box;
     display: flex;
@@ -259,7 +289,7 @@ body {
     align-items: center;
     text-align: center;
     width: 62px;
-    height: 138px;
+    height: 133px;
     background: #FFFFFF;
     border: none;
     border-radius: 12px;
@@ -271,9 +301,16 @@ body {
     font-family: 'Poppins';
     font-style: oblique;
     font-weight: 500;
-    transform: translate(105px, 228px);
+    transform: translate(105px, 263px);
     background: #19ACFF;
 }
+
+    .eq-button :active {
+        border: none;
+        box-shadow: 0px 0px 7px 1px #8dcffc;
+        color: #8dcffc;
+        font-size: 13px;
+    }
 
 .zero-button {
     box-sizing: border-box;
@@ -299,7 +336,23 @@ body {
     font-style: oblique;
     font-weight: 500;
     transform: translate(-35px, 263px);
+    transition: 0.3s;
 }
+
+.btn-container {
+    display: grid;
+    justify-items: end;
+    align-items: end;
+    justify-content: center;
+    transform: translate(-80px, 78px)
+}
+
+    .btn-container :active {
+        border: none;
+        box-shadow: 0px 0px 7px 1px #8dcffc;
+        color: #8dcffc;
+        font-size: 13px;
+    }
 
 @media(max-width:800px) {
     .iphonex {
@@ -332,11 +385,13 @@ body {
         backdrop-filter: blur(30px);
     }
 }
-
-
 /*-----About Dev------*/
 
+
 .bar {
+    margin: 0;
+    position: absolute;
+    top: 50%;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -357,15 +412,15 @@ body {
     box-shadow: -2px -3px 20px 10px rgba(0,0,0,0.2);
 }
 
-.bar-img img{
+.bar-img img {
     height: 35px;
     width: 35px;
     background-size: cover;
     background-position: center;
-    margin:15px;
-    transition:0.5s;
+    margin: 15px;
+    transition: 0.5s;
 }
 
 .bar-img:hover img {
-    transform:rotate(10deg);
+    transform: rotate(10deg);
 }
