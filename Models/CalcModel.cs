@@ -7,4 +7,5 @@
         public double _operator { get; set; }
         public float result { get; set; }
     }
+
 }

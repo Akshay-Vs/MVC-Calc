@@ -4,43 +4,56 @@
 @{
 }
 
+@model List<Calculator.Models.CalcModel>
+@{
+    string operation = "hello world";
+}
+
 <div class="border-0" onselectstart="return false">
 
     <div class="iphonex">
 
         <div class="notch"></div>
 
-        <div class="calc-screen-primary" onselectstart="return true">20*93/98</div>
+        <div class="calc-screen-primary" onselectstart="return true">
+            primary
+        </div>
         <div class="calc-screen-secondary" onselectstart="return true">= 18.979591</div>
 
+
+
         <div class="grid-container">
-            <div class="special-button" id="e">e</div>
-            <div class="special-button" id="sin">sin</div>
-            <div class="special-button" id="cos">cos</div>
-            <div class="special-button" id="log">log</div>
-            <div class="calc-button" id="ac">AC</div>
-            <div class="calc-button" id="del">⌫</div>
-            <div class="op-button" id="div">/</div>
-            <div class="op-button" id="mul">*</div>
-            <div class="num-button">7</div>
-            <div class="num-button">8</div>
-            <div class="num-button">9</div>
-            <div class="op-button">-</div>
-            <div class="num-button">4</div>
-            <div class="num-button">5</div>
-            <div class="num-button">6</div>
-            <div class="op-button">+</div>
-            <div class="num-button">1</div>
-            <div class="num-button">2</div>
-            <div class="num-button">3</div>
+            <button class="special-button" onclick="@operation +='sin'">sin</button>
+            <button class="special-button" onclick="@operation +='cos'">cos</button>
+            <div class="special-button" onclick="@operation +='cos'">tan</div>
+            <div class="special-button" onclick="@operation +='cos'">log</div>
+            <div class="calc-button" onclick="@operation='\0'">AC</div>
+            <div class="calc-button" id="del" value="del">⌫</div>
+            <div class="op-button" id="div" value="div">/</div>
+            <div class="op-button" id="mul" value="mul">*</div>
+
+            <div class="num-button" value="7" asp-action="NumClick">7</div>
+
+            <div class="num-button" value="8">8</div>
+            <div class="num-button" value="9">9</div>
+            <div class="op-button" value="sub">-</div>
+            <div class="num-button" value="4">4</div>
+            <div class="num-button" value="5">5</div>
+            <div class="num-button" value="6">6</div>
+            <div class="op-button" value="add">+</div>
+            <div class="num-button" value="1">1</div>
+            <div class="num-button" value="2">2</div>
+            <div class="num-button" value="3">3</div>
         </div>
-        
+
         <div class="btn-container">
-            <div class="zero-button">0</div>
-            <div class="dot-button">.</div>
-            <div class="coma-button">,</div>
-            <div class="eq-button">=</div>
+            <div class="zero-button" value="0">0</div>
+            <div class="dot-button" value="dot">.</div>
+            <div class="coma-button" value="coma">,</div>
+            <button class="eq-button" onclick="@using (StreamWriter writer = new StreamWriter("log.txt", true))writer.WriteLine(operation);">=</button>
         </div>
+
+
     </div>
 
     <div class="bar">
