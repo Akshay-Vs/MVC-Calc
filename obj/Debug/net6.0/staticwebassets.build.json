@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GFywZaRkWrfXBksSUl9ED7RSiQ1p9wo1/IB4eBGam/Q=",
+  "Hash": "JPq6/fWXqZiivAUOjcwIN6elnwVOfilFeDtN8Ut++54=",
   "Source": "Calculator",
   "BasePath": "_content/Calculator",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\MVC-Calc\\src\\wwwroot\\js\\ButtonHandler.js",
+      "SourceId": "Calculator",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\MVC-Calc\\src\\wwwroot\\",
+      "BasePath": "_content/Calculator",
+      "RelativePath": "js/ButtonHandler.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ButtonHandler.js"
     },
     {
       "Identity": "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\MVC-Calc\\src\\wwwroot\\js\\site.js",
