@@ -9,10 +9,15 @@ namespace Calculator.Controllers
 
         public IActionResult Calc()
         {
+            Models.CalcModel calcModel = new Models.CalcModel()
+            {
+                Operation = "Calc",
+                Result = 0000
+            };
             return View();
         }
 
-        public IActionResult ButtonHandler(string btnValue)
+        public IActionResult ButtonClick(string btnValue)
         {
             return View("Calc");
         }
