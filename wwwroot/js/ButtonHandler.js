@@ -138,24 +138,48 @@
         $("#display-primary").text(formate(operation));
     })
 
+    $("#eq").click(function () {
 
-    $("#del").onkeydown(function () {
-        while (operation.length >0) operation.pop();
-        $("#display-primary").text(formate(operation));
+        console.log("Equal button pressed");
+        console.log(pack(operation));
+
+        //ajax get request to controller
+        $.ajax({
+            url: "/Calc/Calculate",
+            type: "GET",
+            data: { operation: pack(operation) },
+            success: function (result) {
+                $("#display-secondary").text(formate(result, max=10));
+            },
+            error: function (error) {
+                console.log(error);
+                $("#display-secondary").text("Error");
+            }
+        });
     })
 
-
-
-    function formate(str) {
+    function formate(str, max=12) {
 
         let operationText = "", min = 0;
-        if (str.length >= 12) min = str.length - 12;
+        if (str.length >= max) min = str.length - max;
 
         for (let i = min; i < str.length; i++) {
             operationText += str[i];
             console.log("formate");
         }
         return operationText;
+    }
+    
+    function pack(data) {
+        var payload = "";
+        console.log("Payload data: " + data);
+        data.forEach(function (item, index)
+        {
+            payload += item;
+            console.log(payload);
+        });
+    return payload;
+
     }
 
 });

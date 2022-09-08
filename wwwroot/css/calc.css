@@ -99,6 +99,7 @@ body {
     color: #424242;
     transform: translate(0px, 20px);
     margin: 15px;
+
 }
 
 .calc-screen-secondary {
@@ -121,6 +122,8 @@ body {
     font-size: 40px;
     line-height: 72px;
     color: #424242;
+    white-space: nowrap;
+    overflow:visible;
 }
 
 .calc-button {

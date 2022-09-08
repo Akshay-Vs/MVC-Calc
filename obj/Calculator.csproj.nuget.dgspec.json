@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\MVC-Calc\\src\\Calculator.csproj": {}
+    "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\MVC-Calc\\Calculator.csproj": {}
   },
   "projects": {
-    "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\MVC-Calc\\src\\Calculator.csproj": {
+    "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\MVC-Calc\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\MVC-Calc\\src\\Calculator.csproj",
+        "projectUniqueName": "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\MVC-Calc\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\MVC-Calc\\src\\Calculator.csproj",
+        "projectPath": "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\MVC-Calc\\Calculator.csproj",
         "packagesPath": "C:\\Users\\aksha\\.nuget\\packages\\",
-        "outputPath": "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\MVC-Calc\\src\\obj\\",
+        "outputPath": "E:\\My_Projects\\Programming\\C#\\Web\\Calculator\\MVC-Calc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
