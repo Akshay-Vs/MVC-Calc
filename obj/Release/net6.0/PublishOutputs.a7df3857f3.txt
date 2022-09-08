@@ -1,0 +1,7 @@
+E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\obj\Release\net6.0\PubTmp\Out\Calculator.exe
+E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\obj\Release\net6.0\PubTmp\Out\appsettings.json
+E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\obj\Release\net6.0\PubTmp\Out\Calculator.dll
+E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\obj\Release\net6.0\PubTmp\Out\Calculator.deps.json
+E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\obj\Release\net6.0\PubTmp\Out\Calculator.runtimeconfig.json
+E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\obj\Release\net6.0\PubTmp\Out\Calculator.pdb
