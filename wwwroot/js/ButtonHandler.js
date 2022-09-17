@@ -131,6 +131,7 @@
     $("#ac").click(function () {
         while (operation.length > 0) operation.pop();
         $("#display-primary").text(formate(operation));
+        $("#display-secondary").text("= 0000000");
     });
 
     $("#del").click(function () {
@@ -149,7 +150,7 @@
             type: "GET",
             data: { operation: pack(operation) },
             success: function (result) {
-                $("#display-secondary").text(formate(result, max=10));
+                $("#display-secondary").text("= "+formate(result, max=10));
             },
             error: function (error) {
                 console.log(error);

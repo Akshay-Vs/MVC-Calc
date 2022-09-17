@@ -30,11 +30,11 @@ namespace Calculator.Controllers
 
 public class EvaluateString
 {
-    public static int evaluate(string expression)
+    public static float evaluate(string expression)
     {
         char[] tokens = expression.ToCharArray();
 
-        Stack<int> values = new Stack<int>();
+        Stack<float> values = new Stack<float>();
 
         Stack<char> ops = new Stack<char>();
 
@@ -55,7 +55,7 @@ public class EvaluateString
                 {
                     sbuf.Append(tokens[i++]);
                 }
-                values.Push(int.Parse(sbuf.ToString()));
+                values.Push(float.Parse(sbuf.ToString()));
 
                 i--;
             }
@@ -67,9 +67,7 @@ public class EvaluateString
             {
                 while (ops.Peek() != '(')
                 {
-                    values.Push(applyOp(ops.Pop(),
-                                    values.Pop(),
-                                    values.Pop()));
+                    values.Push(applyOp(ops.Pop(), values.Pop(), values.Pop()));
                 }
                 ops.Pop();
             }
@@ -85,9 +83,7 @@ public class EvaluateString
                         hasPrecedence(tokens[i],
                                     ops.Peek()))
                 {
-                    values.Push(applyOp(ops.Pop(),
-                                    values.Pop(),
-                                    values.Pop()));
+                    values.Push(applyOp(ops.Pop(), values.Pop(), values.Pop()));
                 }
 
                 ops.Push(tokens[i]);
@@ -97,9 +93,7 @@ public class EvaluateString
 
         while (ops.Count > 0)
         {
-            values.Push(applyOp(ops.Pop(),
-                            values.Pop(),
-                            values.Pop()));
+            values.Push(applyOp(ops.Pop(), values.Pop(), values.Pop()));
         }
 
 
@@ -123,8 +117,8 @@ public class EvaluateString
             return true;
         }
     }
-    public static int applyOp(char op,
-                            int b, int a)
+    public static float applyOp(char op,
+                            float b, float a)
     {
         switch (op)
         {

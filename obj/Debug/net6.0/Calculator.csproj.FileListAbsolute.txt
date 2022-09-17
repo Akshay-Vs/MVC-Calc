@@ -102,3 +102,8 @@ E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\obj\Debug\net6.0\refint\Ca
 E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\obj\Debug\net6.0\Calculator.pdb
 E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\obj\Debug\net6.0\Calculator.genruntimeconfig.cache
 E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\obj\Debug\net6.0\ref\Calculator.dll
+E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\bin\Debug\net6.0\Builds\Folder\web.config
+E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\bin\Debug\net6.0\Builds\Folder\appsettings.Development.json
+E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\bin\Debug\net6.0\Builds\Folder\appsettings.json
+E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\bin\Debug\net6.0\Builds\Folder\Calculator.deps.json
+E:\My_Projects\Programming\C#\Web\Calculator\MVC-Calc\bin\Debug\net6.0\Builds\Folder\Calculator.runtimeconfig.json
